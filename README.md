@@ -1,5 +1,5 @@
 # ProxyRules
-🚀Some Shadowrocket Module for self-use, thanks for original author.
+🚀Some Rules/Rewrites/Scripts for self-use, thanks for original author.
 
 ⚠️For learning purposes only, please do not use it for commercial purposes.
 
