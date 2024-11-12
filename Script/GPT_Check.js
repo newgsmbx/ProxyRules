@@ -78,7 +78,7 @@ $httpClient.get(url, function(error, response, data){
   // 组装通知数据
   let body = {
     title: titlediy ? titlediy : 'ChatGPT',
-    content:`${gpt}   区域:${loc}   WARP:${warps}`,
+    content:`${gpt}   IP地区:${loc}   WARP代理:${warps}`,
     icon: iconUsed ? iconUsed : undefined,
     'icon-color': iconCol ? iconCol : undefined
   };
