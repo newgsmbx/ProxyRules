@@ -10,4 +10,4 @@
 GPTCK = script-name=GPTCK,update-interval=-1
 
 [Script]
-GPTCK = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Script/GPT_Check.js,argument=icon=command.circle.fill&iconerr=xmark.seal.fill&icon-color=#EF6D20&iconerr-color=#D65C51
+GPTCK = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Script/GPT_Check.js,argument=icon=medal.star&iconerr=xmark.seal.fill&icon-color=#EF6D20&iconerr-color=#D65C51
