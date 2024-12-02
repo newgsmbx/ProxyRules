@@ -1,4 +1,4 @@
-# RULE-SET,https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/DNSLeaks.txt,PROXY
+# RULE-SET,https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/Talkatone.txt,PROXY
 DOMAIN-SUFFIX,tktn.be
 DOMAIN-SUFFIX,talkatone.com
 DOMAIN-SUFFIX,mobilefuse.com
