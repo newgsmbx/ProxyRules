@@ -1,6 +1,6 @@
 #!name=淘宝去广告
-#!desc=阿里系去广告
-#!author=RuCu6
+#!desc=淘宝去广告
+#!author=转自RuCu6
 
 [Map Local]
 ^https:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv data-type=text data="{}" status-code=200
