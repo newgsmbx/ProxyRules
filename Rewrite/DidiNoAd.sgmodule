@@ -1,6 +1,6 @@
 #!name=滴滴去广告
 #!desc=去开屏及内部广告页面
-#! author=转自ZenmoFeiShi
+#!author=转自ZenmoFeiShi
 
 [Rule]
 IP-CIDR,123.207.209.39/32,reject
