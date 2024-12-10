@@ -1,4 +1,6 @@
 # Microsoft
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,live.net
 DOMAIN-KEYWORD,microsoft
 DOMAIN-SUFFIX,msauth.net
 DOMAIN-SUFFIX,msauthimages.net
