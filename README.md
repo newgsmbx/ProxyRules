@@ -1,7 +1,9 @@
 # iab
-* 自用规则/脚本/重写备份，仅供参考不作他用
+* 自用规则/模块备份，仅供参考不作他用
 
-* 未经允许禁止转载与传播
+* 未经允许禁止转载与传播，否则后果自负
+
+* 禁止任何形式的转载或发布至国内平台
 
 
 #### YouTube去广告
@@ -10,7 +12,7 @@
 #### 京东比价
 * [JD_Price.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD_Price.sgmodule)
 
-#### 微博国际版（轻享版）去广告，推荐5.9.71版本
+#### 微博国际版（轻享版）去广告
 * [WeiBoIntl.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/WeiBoIntl.sgmodule)
 
 #### 滴滴出行去广告
