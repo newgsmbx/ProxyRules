@@ -1,9 +1,8 @@
-# ProxyRules
-<details>
-  <summary><strong>Proxy Rules, Rewrites, and Scripts for Personal Use</strong></summary>
+# iab
+* 自用规则/脚本/重写备份，仅供参考学习不作他用
 
-> **Disclaimer**: This repository is intended for **learning purposes only**. Please do not use any of these rules for commercial purposes.
+* 未经允许禁止转载与传播
 
-> **Contact**: If there is any infringement, please get in touch, and I will promptly remove the content.
 
-</details>
+#### YouTube去广告
+* [YouTubeNoAd.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
