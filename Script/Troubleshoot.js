@@ -1,11 +1,13 @@
 (function() {
-  // 从 $argument 获取日志内容（确保调用时传入日志文本）
-  var log = $argument;
-  if (!log) {
-    $notification.post("Shadowrocket 状态", "", "未提供日志内容");
+  // 假设日志内容已经读取到变量 log 中
+  // 如果你希望在调试时直接内嵌日志内容，可以将下行的空字符串替换为实际日志文本
+  var log = log || "";  // 请确保这里的 log 变量已赋值为日志内容
+  
+  if (!log || log.length === 0) {
+    $notification.post("Shadowrocket 状态", "", "日志内容为空，请检查日志读取逻辑");
     $done();
   }
-
+  
   // 解析越狱状态
   var jailMatch = log.match(/jailbroken\s*=>\s*(\d)/);
   var jailbreakStatus = "设备：未知";
