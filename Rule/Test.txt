@@ -1,2 +1,0 @@
-# this file is only used for testing
-.baidu.com
