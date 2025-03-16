@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,edns.ip-api.com
 DOMAIN-SUFFIX,expressvpn.com
 DOMAIN-SUFFIX,nordvpn.com
 DOMAIN-SUFFIX,immersivetranslate.com
+DOMAIN-SUFFIX,iplark.com
 DOMAIN-SUFFIX,ipleak.net
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ipip.net
