@@ -22,4 +22,4 @@
 * [Coolapk.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/Coolapk.sgmodule)
 
 #### 小红书去广告及水印
-* [RedBook.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.sgmodule)
+* [RedBook.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.srmodule)
