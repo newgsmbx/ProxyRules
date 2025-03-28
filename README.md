@@ -9,7 +9,7 @@
 #### YouTube去广告
 * [YouTubeNoAd.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
-#### 京东比价
+#### 京东比价（支持系统通知和页面嵌入两种结果显示）
 * [JD_Price.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD_Price.sgmodule)
 
 #### 微博国际版（轻享版）去广告
