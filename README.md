@@ -16,7 +16,7 @@
 * [WeiBoIntl.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/WeiBoIntl.sgmodule)
 
 #### 滴滴出行去广告
-* [DidiNoAd.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.sgmodule)
+* [DidiNoAd.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.srmodule)
 
 #### 酷安去广告（需重装app）
 * [Coolapk.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/Coolapk.sgmodule)
