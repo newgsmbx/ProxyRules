@@ -6,15 +6,16 @@
 * 未经允许禁止转载与传播，由此产生的一切后果自负，与本仓库无关
 
 
-## 模块列表
+
+#### 模块列表
 * [YouTube](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
 * [京东比价](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD_Price.sgmodule)
 
 * [微博轻享版](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/WeiBoIntl.sgmodule)
 
-* [滴滴出行](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.srmodule)
+* [滴滴出行净化](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.srmodule)
 
-* [酷安](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/Coolapk.sgmodule)
+* [酷安去广告](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/Coolapk.sgmodule)
 
-* [小红书](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.srmodule)
+* [小红书净化](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.srmodule)
