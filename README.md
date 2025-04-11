@@ -6,8 +6,7 @@
 * 未经允许禁止转载与传播，由此产生的一切后果自负，与本仓库无关
 
 
-
-#### 模块列表（参数编辑特性要求小火箭版本不低于2.2.62）
+#### 模块列表
 * [YouTube](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
 * [京东比价](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD_Price.sgmodule)
