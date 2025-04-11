@@ -7,7 +7,7 @@
 
 
 
-#### 模块列表
+#### 模块列表（仅测试适配Shadowrocket，参数编辑特性要求小火箭版本不低于2.2.62版本）
 * [YouTube](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
 * [京东比价](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD_Price.sgmodule)
