@@ -13,21 +13,21 @@
 * 备用版本
   [YouTubeLite.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeLite.srmodule)
 
-#### 京东比价
-* 参数编辑版本
-  [JD_Price.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD_Price.sgmodule)
 
 #### 微博国际版（轻享版）去广告
 * 适用于轻享版
   [WeiBoIntl.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/WeiBoIntl.sgmodule)
 
+
 #### 滴滴出行去广告
 * 精简标签和部分广告
   [DidiNoAd.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.srmodule)
 
+
 #### 酷安去广告
 * 重装APP后使用
   [Coolapk.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/Coolapk.sgmodule)
+
 
 #### 小红书去广告及水印
 * 仅在http代理生效
