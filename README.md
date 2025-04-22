@@ -26,7 +26,7 @@
 
 
 #### 京东比价（含参数编辑）
-* 首次使用编辑参数查看说明
+* 首次使用查看参数说明
   [JD-PRICE.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD-PRICE.srmodule)
 
 
