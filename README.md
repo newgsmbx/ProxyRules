@@ -25,6 +25,12 @@
   [DidiNoAd.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.srmodule)
 
 
+#### 京东比价
+* 首次使用需安装慢慢买获取cookie
+  [JD-PRICE.srmodule]
+(https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD-PRICE.srmodule)
+
+
 #### 酷安去广告
 * 重装APP后使用
   [Coolapk.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/Coolapk.sgmodule)
