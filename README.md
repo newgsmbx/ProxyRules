@@ -15,4 +15,4 @@
 
 #### 京东比价
 * 参数编辑版本
-  [JD_Price.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD_PRICE.srmodule)
+  [JD_PRICE.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD_PRICE.srmodule)
