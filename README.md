@@ -8,7 +8,7 @@
 
 
 #### YouTube去广告（参数编辑版本）
-* YouTube广告及按钮移除
+* 使用请查看参数说明
   [YouTubeNoAd.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
 
