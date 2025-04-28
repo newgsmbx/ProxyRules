@@ -8,11 +8,8 @@
 
 
 #### YouTube去广告（参数编辑版本）
-* 常规版本
+* 自定义移除按钮和翻译语言
   [YouTubeNoAd.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
-
-* 备用版本
-  [YouTubeLite.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeLite.srmodule)
 
 
 #### 滴滴出行去广告
