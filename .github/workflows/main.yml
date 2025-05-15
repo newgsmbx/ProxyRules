@@ -3,18 +3,21 @@ name: Sync CNCIDR to main branch
 on:
   schedule:
     - cron: '0 2 * * *'  # 每天 UTC 2 点自动执行
-  workflow_dispatch:       # 手动执行支持
+  workflow_dispatch:
+
+permissions:
+  contents: write  # 👈 显式授予 GitHub Actions 对代码仓库的写权限
 
 jobs:
   sync-cncidr:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main branch only
+      - name: Checkout main branch
         uses: actions/checkout@v3
         with:
-          ref: main             # ⚠️ 强制操作 main 分支
-          persist-credentials: true
+          ref: main
+          persist-credentials: true  # 保留默认 GITHUB_TOKEN 凭证
 
       - name: Create Rule directory if not exists
         run: mkdir -p Rule
@@ -24,7 +27,7 @@ jobs:
           curl -s https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt \
           | sed 's/$/,no-resolve/' > Rule/cncidr.txt
 
-      - name: Commit and push to main branch
+      - name: Commit and push to main
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
