@@ -1,15 +1,15 @@
-name: Sync CNCIDR to main branch
+name: Sync rule files to main branch
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # 每天 UTC 2 点自动执行
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: write  #  授权 GitHub Actions 写入
+  contents: write
 
 jobs:
-  sync-cncidr:
+  sync-rules:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,20 +17,30 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
-          persist-credentials: true  # 保留默认 GITHUB_TOKEN 凭证
+          persist-credentials: true
 
       - name: Create Rule directory if not exists
         run: mkdir -p Rule
 
-      - name: Download and transform cncidr.txt
+      - name: Download and transform cncdir.txt
         run: |
           curl -s https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/cncidr.txt \
           | sed 's/$/,no-resolve/' > Rule/cncidr.txt
 
-      - name: Commit and push to main
+      - name: Download tld-not-cn.txt (no modification)
+        run: |
+          curl -s https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/tld-not-cn.txt \
+          -o Rule/tld-not-cn.txt
+
+      - name: Download direct.txt (no modification)
+        run: |
+          curl -s https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/direct.txt \
+          -o Rule/direct.txt
+
+      - name: Commit and push all changes to main
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add Rule/cncidr.txt
-          git commit -m "Auto update Rule/cncidr.txt with ,no-resolve" || echo "No changes to commit"
+          git add Rule/cncidr.txt Rule/tld-not-cn.txt Rule/direct.txt
+          git commit -m "Auto update rule files: cncidir, tld-not-cn, direct" || echo "No changes to commit"
           git push origin main
