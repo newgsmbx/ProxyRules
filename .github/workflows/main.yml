@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # 👈 显式授予 GitHub Actions 对代码仓库的写权限
+  contents: write  #  授权 GitHub Actions 写入
 
 jobs:
   sync-cncidr:
