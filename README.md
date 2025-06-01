@@ -5,6 +5,8 @@
 
 * 未经允许禁止转载与传播，由此产生的一切后果自负，与本仓库无关
 
+* jq表达式支持要求Shadowrocket版本不低于2.2.66
+
 
 
 #### YouTube去广告（参数编辑版本）
@@ -12,12 +14,12 @@
   [YouTubeNoAd.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
 
-#### 微博轻享版去广告
+#### 微博轻享版去广告（JQ表达式版本）
 * 移除开屏和应用内广告
   [WeiboIntl.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/WeiboIntl.sgmodule)
   
 
-#### 滴滴出行去广告
+#### 滴滴出行去广告（JQ表达式版本）
 * 精简标签和部分广告
   [DidiNoAd.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.srmodule)
 
