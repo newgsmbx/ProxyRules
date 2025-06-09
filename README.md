@@ -27,5 +27,5 @@
 
 
 #### 小红书去广告及水印
-* 不处理评论区图片水印
+* 小火箭请在HTTP代理模式下使用
   [RedBook.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.srmodule)
