@@ -27,5 +27,5 @@
 
 
 #### 小红书去广告及水印
-* 仅在http代理生效
+* 不处理评论区图片水印
   [RedBook.srmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.srmodule)
