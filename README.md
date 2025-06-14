@@ -7,8 +7,8 @@
 
 
 #### YouTube去广告（参数编辑版本）
-* 使用请查看参数说明
-  [点击复制链接](https://copii.vercel.app/?ct=https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
+* 安装后点击模块查看编辑参数说明
+* [长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
 
 #### 微博轻享版去广告（JQ表达式版本）
