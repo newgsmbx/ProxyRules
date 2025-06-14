@@ -8,7 +8,7 @@
 <br/>
 <br/>
 <br/>
-<br/>
+
 #### YouTube去广告（参数编辑版本）
 * 安装后点击模块查看编辑参数说明
 * [长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
