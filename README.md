@@ -8,7 +8,7 @@
 
 #### YouTube去广告（参数编辑版本）
 * 使用请查看参数说明
-  [YouTubeNoAd.sgmodule](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
+  [长按复制链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
 
 #### 微博轻享版去广告（JQ表达式版本）
