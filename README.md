@@ -7,25 +7,25 @@
 <br/>
 
 #### YouTube去广告（参数编辑版本）
-* 安装后点击模块查看编辑参数说明
-* [长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
+* 说明：点击模块查看编辑参数说明
+* 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
 
 #### 微博轻享版去广告（JQ表达式版本）
-* 移除开屏和应用内广告
-* [长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/WeiboIntl.sgmodule)
+* 说明：移除开屏和应用内广告
+* 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/WeiboIntl.sgmodule)
   
 
 #### 滴滴出行去广告（JQ表达式版本）
-* 精简标签、移除开屏和应用内广告
-* [长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.srmodule)
+* 说明：精简底部标签、移除开屏和应用内广告
+* 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.srmodule)
 
 
 #### 京东比价（含参数编辑）
-* 安装后点击模块查看编辑参数说明
-* [长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD-PRICE.srmodule)
+* 说明：点击模块查看编辑参数说明
+* 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD-PRICE.srmodule)
 
 
 #### 小红书去广告及水印
-* 小火箭请在HTTP代理模式下使用
-* [长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.srmodule)
+* 说明：小火箭请在HTTP代理模式下使用
+* 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.srmodule)
