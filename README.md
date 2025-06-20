@@ -8,7 +8,7 @@
 <br/>
 
 #### YouTube去广告（参数编辑版本）
-* 说明：点击模块查看编辑参数说明
+* 说明：安装后，点击模块-编辑参数-查看说明
 * 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 
 
@@ -26,7 +26,7 @@
 * 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/BiliIntlClean.sgmodule)
 
 #### 京东比价（含参数编辑）
-* 说明：点击模块查看编辑参数说明
+* 说明：安装后，点击模块-编辑参数-查看说明
 * 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/JD-PRICE.srmodule)
 
 
