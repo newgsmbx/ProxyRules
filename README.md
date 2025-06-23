@@ -9,7 +9,9 @@
 
 #### YouTube去广告（参数编辑版本）
 * 说明：安装后，点击模块-编辑参数-查看说明
-* 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
+* 安装（Shadowrocket）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
+* 安装（Quantumult X）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.snippet)
+
 
 
 #### 微博轻享版去广告（JQ表达式版本）
