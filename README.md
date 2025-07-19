@@ -21,7 +21,8 @@
 
 #### 滴滴出行去广告（JQ表达式版本）
 * 说明：精简底部标签、移除开屏和应用内广告
-* 安装：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DidiNoAd.srmodule)
+* 安装（🚀）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DiDiClean.sgmodule)
+* 安装（QX）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/DiDiClean.snippet)
 
 #### 国际版哔哩净化（JQ表达式版本）
 * 说明：移除热搜、搜索发现，精简我的页面
