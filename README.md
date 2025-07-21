@@ -8,7 +8,7 @@
   
 <br/>
 
-#### YouTube去广告
+## YouTube去广告
 * 说明：安装后，点击模块-编辑参数-查看说明
 * 安装（🚀）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
 * 安装（QX）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.snippet)
