@@ -10,7 +10,7 @@
 
 ## Shadowrocket 配色方案
 * 恢复默认：设置 - 颜色 - 重设颜色
-* 配色方案：[长按跳转LOWERTOP颜色配置](https://github.com/LOWERTOP/Shadowrocket-First?tab=readme-ov-file#shadowrocket-配色文件)
+* 配色方案：[点击跳转LOWERTOP颜色配置](https://github.com/LOWERTOP/Shadowrocket-First?tab=readme-ov-file#shadowrocket-配色文件)
 <br/>
 
 ## YouTube去广告
