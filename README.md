@@ -8,6 +8,10 @@
 
 <br/>
 
+## Shadowrocket 配色方案
+* 恢复默认： 设置 - 颜色 - 重设颜色
+* 配色方案：[长按跳转LOWERTOP颜色配置]([https://github.com/LOWERTOP/Shadowrocket-First?tab=readme-ov-file#shadowrocket-配色文件])
+
 ## YouTube去广告
 * 说明：安装后，点击模块-编辑参数-查看说明
 * 安装（🚀）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/YouTubeNoAd.sgmodule)
