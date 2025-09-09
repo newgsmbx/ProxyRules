@@ -1,0 +1,43 @@
+name: Append no-resolve to rules
+
+on:
+  workflow_dispatch:
+    inputs:
+      file-path:
+        description: '要处理的规则文件路径（相对于仓库根目录）'
+        required: true
+
+jobs:
+  append-no-resolve:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v3
+        with:
+          ref: main  # 操作 main 分支的文件
+
+      - name: Generate modified file
+        run: |
+          RULE_FILE="${{ github.event.inputs.file-path }}"
+          if [ ! -f "$RULE_FILE" ]; then
+            echo "Error: File not found: $RULE_FILE"
+            exit 1
+          fi
+          EXT="${RULE_FILE##*.}"            # 获取文件后缀
+          BASENAME="${RULE_FILE%.*}"       # 获取文件名（去掉后缀）
+          NEW_FILE="${BASENAME}_no_resolve.${EXT}"  # 新文件名
+          sed 's/$/,no-resolve/' "$RULE_FILE" > "$NEW_FILE"
+          echo "Generated file: $NEW_FILE"
+
+      - name: Commit new file
+        run: |
+          RULE_FILE="${{ github.event.inputs.file-path }}"
+          EXT="${RULE_FILE##*.}"
+          BASENAME="${RULE_FILE%.*}"
+          NEW_FILE="${BASENAME}_no_resolve.${EXT}"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add "$NEW_FILE"
+          git commit -m "Generate modified file for $RULE_FILE with ,no-resolve" || echo "No changes to commit"
+          git push origin main
