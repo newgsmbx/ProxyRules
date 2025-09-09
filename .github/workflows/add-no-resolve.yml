@@ -12,24 +12,39 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 拉取 main 分支内容
       - name: Checkout main branch
         uses: actions/checkout@v3
         with:
-          ref: main  # 操作 main 分支的文件
+          ref: main
 
+      # 列出 Rule 目录内容，便于检查文件是否存在
+      - name: List Rule directory
+        run: |
+          echo "Listing files in Rule/ directory:"
+          if [ -d "Rule" ]; then
+            ls -l Rule
+          else
+            echo "Directory Rule/ does not exist"
+          fi
+
+      # 生成 _no_resolve 文件
       - name: Generate modified file
         run: |
           RULE_FILE="${{ github.event.inputs.file-path }}"
           if [ ! -f "$RULE_FILE" ]; then
             echo "Error: File not found: $RULE_FILE"
+            echo "Available files in Rule/ directory:"
+            [ -d "Rule" ] && ls -l Rule
             exit 1
           fi
-          EXT="${RULE_FILE##*.}"            # 获取文件后缀
-          BASENAME="${RULE_FILE%.*}"       # 获取文件名（去掉后缀）
-          NEW_FILE="${BASENAME}_no_resolve.${EXT}"  # 新文件名
+          EXT="${RULE_FILE##*.}"
+          BASENAME="${RULE_FILE%.*}"
+          NEW_FILE="${BASENAME}_no_resolve.${EXT}"
           sed 's/$/,no-resolve/' "$RULE_FILE" > "$NEW_FILE"
           echo "Generated file: $NEW_FILE"
 
+      # 提交新文件回 main 分支
       - name: Commit new file
         run: |
           RULE_FILE="${{ github.event.inputs.file-path }}"
