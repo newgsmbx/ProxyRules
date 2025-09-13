@@ -41,9 +41,10 @@
 * 说明：小火箭请在HTTP代理模式下使用
 * 安装（🚀）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.srmodule)
 * 安装（QX）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.snippet)
+<br/>
 
 ## 部分规则集
 * 说明：规则类型选择RULE-SET
 * AI Collection：[长按复制规则链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt)
-* Talkatone：[长按复制规则链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/Talkatone.txt)
 * CryptoCurrency：[长按复制规则链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/Crypto.txt)
+* Talkatone：[长按复制规则链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/Talkatone.txt)
