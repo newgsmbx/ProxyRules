@@ -47,4 +47,5 @@
 * 说明：规则类型选择RULE-SET
 * AI Collection：[长按复制规则链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/AI.txt)
 * CryptoCurrency：[长按复制规则链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/Crypto.txt)
+* IP Check：[长按复制规则链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/IPCheck.txt)
 * Talkatone：[长按复制规则链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rule/Talkatone.txt)
