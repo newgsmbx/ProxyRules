@@ -38,7 +38,7 @@
 <br/>
 
 ## 小红书去广告及水印
-* 说明：小火箭请在HTTP代理模式下使用
+* 说明：小火箭请在HTTP代理模式下使用，TUN模式下可能失效
 * 安装（🚀）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.srmodule)
 * 安装（QX）：[长按复制模块链接](https://raw.githubusercontent.com/iab0x00/ProxyRules/main/Rewrite/RedBook.snippet)
 <br/>
